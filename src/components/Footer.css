@@ -1,0 +1,118 @@
+footer {
+  justify-content:center;
+}
+
+.menu {
+  background-color: #0A86F9;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li{
+  justify-content: center;
+  align-content: center;
+  margin: 30px;
+}
+
+.menu .buy-comics {
+  height: 45px;
+  margin-right: 10px;
+}
+
+.menu .buy-comics-visa {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.menu ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.widget {
+  background-image: url(./assets/footer-bg.jpg);
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-bar{
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  gap: 1.1rem;  
+}
+
+.service-bar ul li a {
+  color: #797979;
+  font-size: 11px;
+}
+
+.footer-dc-logo {
+  height: 400px;
+  object-fit: cover;
+}
+
+.social {
+  background-color: #303030;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
+}
+
+.social .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social .icon h2 {
+  color: #0A86F9;
+  font-size: 20px;
+  margin: 1em;
+}
+
+.social button {
+  background-color:#303030;
+  border: 2px solid #0A86F9;
+  padding: .8em;
+
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.social .icon-social {
+  padding: 10px;
+}
+
+h2 {
+  color: white;
+  align-content: center;
+  font-family: Open Sans Condensed; font-weight: 700;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

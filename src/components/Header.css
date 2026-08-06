@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+}
+
+header .logo {
+    width: 65px;
+}
+
+header nav {
+    font-size: 12px;
+    align-content: center;
+    font-family: Open Sans Condensed; font-weight: 700;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav a {
+    color: #303030;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+header nav a.active {
+    color: #0A86F9;
+}
