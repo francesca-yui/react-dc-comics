@@ -1,0 +1,22 @@
+.footer-service {
+  background-image: url(./assets/footer-bg.jpg);
+  display: flex;
+  justify-content: space-around;
+  height: 380px;
+}
+
+.service-bar{
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  gap: 1.1rem;
+}
+
+.service-bar ul li a {
+  color: #797979;
+  font-size: 11px;
+}
+
+.widget .footer-dc-logo {
+  object-fit: fill;
+}

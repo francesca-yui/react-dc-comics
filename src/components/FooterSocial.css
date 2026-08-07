@@ -1,0 +1,36 @@
+.social {
+  background-color: #303030;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
+}
+
+.social .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social .icon h2 {
+  color: #0A86F9;
+  font-size: 20px;
+  margin: 1em;
+}
+
+.social button {
+  background-color:#303030;
+  border: 2px solid #0A86F9;
+  padding: .8em;
+
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.social .icon-social {
+  padding: 10px;
+}

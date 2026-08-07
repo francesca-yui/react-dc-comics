@@ -1,0 +1,35 @@
+.menu {
+  background-color: #0A86F9;
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li{
+  justify-content: center;
+  align-content: center;
+  margin: 1.9rem;
+}
+
+.menu .buy-comics {
+  height: 45px;
+  margin-right: 1rem;
+}
+
+.menu .buy-comics-visa {
+  width: 45px;
+  margin-right: 1rem;
+}
+
+.menu ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
