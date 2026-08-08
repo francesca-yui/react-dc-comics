@@ -6,6 +6,82 @@ main {
   align-content: center;
   text-align: center;
   font-size: 2em;
+}
+
+main .hero-page {
+  background-image: url(./assets/jumbotron.jpg);
+  background-size: cover;
+  height: 400px;
+
+  position: relative;
+}
+
+main .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 30px 15px;
+  padding: 1.5em;
+  padding-bottom: 0;
+}
+
+main .container .comic {
+  width: 150px;
+}
+
+main .container img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+h3 {
+  color: white;
+  font-size: .35em;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+
+.button-section {
+  font-size: .7em;
+  border-radius: .7em;
+  padding: .55em 1.2em;
+  color: white;
+
+  position: absolute;
+  top: 370px;
+  left: 15%;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #0A86F9;
+  border: 0px;
+  border-radius: 1em;
+  padding: .8em 4em;
+
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
-  padding: 2em;
+  font-size: .4em;
+  color: white;
+  text-transform: uppercase;
+}
+
+button a,
+button a:visited,
+button a:hover,
+button a:active,
+button a:focus {
+  color: white;
+  text-decoration: none;
 }

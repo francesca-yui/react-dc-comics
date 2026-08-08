@@ -21,6 +21,7 @@
 .social button {
   background-color:#303030;
   border: 2px solid #0A86F9;
+  border-radius: 1em;
   padding: .8em;
 
   font-weight: bold;
