@@ -1,5 +1,6 @@
 .footer-service {
   background-image: url(./assets/footer-bg.jpg);
+  background-size: contain;
   display: flex;
   justify-content: space-around;
   height: 380px;
@@ -18,5 +19,5 @@
 }
 
 .widget .footer-dc-logo {
-  object-fit: fill;
+  object-fit: cover;
 }
