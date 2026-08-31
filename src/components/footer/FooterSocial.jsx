@@ -11,11 +11,18 @@ const socials = [
 export const FooterSocial = () => (
   <section className="social">
     <button><a href="#">sign-up now!</a></button>
+
       <section className="icon">
       <h2>Follow Us</h2>
-      { socials.map( social => (
-        <a href={social.href}><img className="icon-social" src={social.src} alt={social.alt}></img></a>
+      {socials.map( social => (
+        <a key={social.id} href={social.href}>
+          <img className="icon-social" 
+            src={social.src} 
+            alt={social.alt}>
+          </img>
+          </a>
       ))}
     </section>
+
   </section>
 );

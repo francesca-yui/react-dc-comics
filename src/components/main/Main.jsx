@@ -12,15 +12,16 @@ const Card = props => (
 export const Main = props => (
     <main>
         <section className='hero-page'>
-        <button className='button-section'>
-            <a href="#">Current title</a>
-        </button>
+            <button className='button-section'>
+                <a href="#">Current title</a>
+            </button>
         </section>
 
         <div className='container'>
         { props.comics.map(comic => 
         <Card key={comic.id} comic={comic} />)}
         </div>
+
         <div className='load-more'>
             <button>
                 <a href="">Load More</a>

@@ -4,20 +4,20 @@ import './App.css';
 import { useState } from 'react';
 
 // componenti
-import { Header } from './components/Header';
-import { Main } from './components/Main';
+import { Header } from './components/header/Header';
+import { Main } from './components/main/Main';
 import { Footer } from './components/footer/Footer';
 
 //dati (privatizzati dentro App)
-import { links } from './components/data/links';
-import { services } from './components/data/services';
-import { comics } from './components/data/comics';
+import { comics } from './data/comics';
+import { links } from './data/links';
+import { services } from './data/services';
 
 const App = () => (
     <>
     <Header links={links} />
     <Main comics={comics} />
-    <Footer/>
+    <Footer services={services} />
     </>
 );
 
