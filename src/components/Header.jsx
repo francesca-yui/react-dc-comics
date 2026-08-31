@@ -21,7 +21,9 @@ export const Header = props => (
         <nav>
             <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:700' rel='stylesheet'></link>
             <ul>
-                {props.links.map(link => <NavLink key={link.key} link={link} />)}
+                {props.links.map(link => 
+                <NavLink key={link.id} 
+                link={link} />)}
             </ul>
         </nav>
     </header>

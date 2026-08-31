@@ -17,7 +17,7 @@ const App = () => (
     <>
     <Header links={links} />
     <Main comics={comics} />
-    <Footer services={services}/>
+    <Footer/>
     </>
 );
 
